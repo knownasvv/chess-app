@@ -1,0 +1,51 @@
+.square {
+    width: var(--square-size);
+    height: var(--square-size);
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.board-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.board-map {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    padding-left: 2px;
+    font-size: 10px;
+}
+
+.black {
+    background-color: burlywood;
+}
+
+.white {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    height: fit-content;
+    /* center */
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 0;
+}
+
+/* Variable for square */
+:root {
+    --square-size: 75px;
+}
